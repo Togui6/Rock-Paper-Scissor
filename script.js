@@ -29,9 +29,8 @@ function getHumanChoice () {
         console.log("You picked " + humanNumber);
 }
 
-function playRound(humanChoice, computerChoice) {
-    humanChoice = humanNumber;
-    computerChoice = computerNumber;
+function playRound(humanChoice = getHumanChoice(), computerChoice = getComputerChoice()) {
+
     if (humanChoice === computerChoice) {
         console.log("Equality !");
 
@@ -55,3 +54,5 @@ function playRound(humanChoice, computerChoice) {
     }    
 
 }
+
+// Le jeu marche mais ça affiche toujours Equality peu importe le résultat
