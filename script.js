@@ -1,6 +1,8 @@
 console.log("Hello")
 
 let computerNumber = 1;
+let humanScore = 0;
+let computerScore = 0;
 
 function getComputerChoice() {
     computerNumber = Math.floor(Math.random()* 3) + 1;
@@ -25,4 +27,31 @@ function getHumanChoice () {
         console.log("Please try again");
     }
         console.log("You picked " + humanNumber);
+}
+
+function playRound(humanChoice, computerChoice) {
+    humanChoice = humanNumber;
+    computerChoice = computerNumber;
+    if (humanChoice === computerChoice) {
+        console.log("Equality !");
+
+    } else if (humanChoice === "rock" && computerChoice === "paper") {
+        console.log("You lose ! Paper beats rock, you suck.");
+    } else if (humanChoice === "rock" && computerChoice === "scissor") {
+        console.log("You win ! Rock beats scissor.");
+
+    } else if (humanChoice === "paper" && computerChoice === "rock") {
+        console.log("You win ! Paper beats rock.");
+    } else if (humanChoice === "paper" && computerChoice === "scissor") {
+        console.log("You lose ! Scissor beats paper you moron.");
+        
+    } else if (humanChoice === "scissor" && computerChoice === "rock") {
+        console.log("You lose ! Rock beats scissor, come back when you're smarter.");
+    } else if (humanChoice === "scissor" && computerChoice === "paper") {
+        console.log("You win ! Scissor beats paper.");
+        
+    } else {
+        console.log("Something went wrong lol");
+    }    
+
 }
