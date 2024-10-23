@@ -9,4 +9,4 @@ What I learned doing this exercise :
 5) Creating functions parameters as other functions, allowing a function to use two function automatically at the beggining
 6) Using &&, ||, =, and ===
 7) If using console.log returns a value but "undefined" as well, then it's normal, no problem
-
+8) To make a value case insensitive by converting it to lowercase
