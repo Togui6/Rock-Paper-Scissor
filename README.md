@@ -10,3 +10,8 @@ What I learned doing this exercise :
 6) Using &&, ||, =, and ===
 7) If using console.log returns a value but "undefined" as well, then it's normal, no problem
 8) To make a value case insensitive by converting it to lowercase
+
+What I learned the second time : 
+1) Creating events on click
+2) Displaying a score with ``(backticks)
+3) Creating new elements in the DOM from JS and modifying them
