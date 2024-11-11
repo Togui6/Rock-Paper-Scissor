@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(106, 190, 216);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    height: 50px;
+}
+
+#content {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+
+.display {
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
